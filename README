@@ -1,0 +1,14 @@
+Popis:
+Konzolová aplikace implementující jednoduchého SMTP klienta, který je schopný připojit se na SMTP server a následně odeslat poštu.
+
+Autor:
+Jakub Pastuszek - xpastu00
+
+Příklad použití - soubor "mail.txt" se seznamem příjemců a zpráv (viz manual.pdf) pro odeslání:
+./smtpklient -i mail.txt
+
+Seznam souborů:
+isa.cpp manual.pdf Makefile README
+
+Neimplementované:
+SMTP klient - Timeout
